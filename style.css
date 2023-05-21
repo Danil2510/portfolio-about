@@ -67,7 +67,8 @@ li {
 img {
     border: 3px dashed black;
     border-radius: 45px;
-    margin-left: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div {
@@ -77,17 +78,18 @@ div {
 .social {
     border: 1px solid white;
     border-radius: 50%;
-    box-shadow: black 5px 5px;
-    margin-right: 10px;
+    box-shadow: black 5px 5px 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer img {
     border: 2px solid white ;
     border-radius: 50%;
-    box-shadow: black 2px 2px;
+    box-shadow: black 2px 2px 2px;
 }
 
 footer {
-    margin: 15px 0px 0px 0px;
-    padding: 15px;
+    margin-top: 30px;
+    display: block;
 }
